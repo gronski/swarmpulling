@@ -1,0 +1,102 @@
+@media only screen {
+
+}
+
+/* Styles for screens that are atleast 768px; */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* for above small breakpoint */
+/* Medium Displays: 768px - 1279px */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large Displays: 1280px - 1440px */
+@media only screen and (min-width: 1280px) {
+
+}
+/* X-Large Displays: 1400px and up */
+@media only screen and (min-width: 1440px) {
+
+}
+
+@media only screen and (orientation: landscape) {
+
+}
+
+@media only screen and (orientation: portrait) {
+
+}
+
+/* Foundation Block Grids for below small breakpoint */
+@media only screen {
+
+}
+
+/* Foundation Block Grids for above small breakpoint */
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media print {
+
+}
+
+@media only screen {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 58.75em) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media print {
+
+}
+
+/* Styles for screens that are atleast 768px; */
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Foundation Switches */
+@media only screen {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (max-width: 767px) {
+
+}
