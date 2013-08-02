@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" lang="en" > <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" ><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en" ><!--<![endif]-->
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="A free guide for Everquest bard swarm pulling. Learn strategies and techniques specific to the bard class and gain the ability to farm platinum, loot, and be able to power level experience in Everquest.">
@@ -90,45 +90,6 @@
     </script>
     
     <script src="/js/foundation.min.js"></script>
-    <!--
-    
-    <script src="js/foundation/foundation.js"></script>
-    
-    <script src="js/foundation/foundation.alerts.js"></script>
-    
-    <script src="js/foundation/foundation.clearing.js"></script>
-    
-    <script src="js/foundation/foundation.cookie.js"></script>
-
-    -->
-
-    <script src="/js/foundation/foundation.dropdown.js"></script>
-    
-    <!--
-
-    <script src="js/foundation/foundation.forms.js"></script>
-    
-    <script src="js/foundation/foundation.joyride.js"></script>
-    
-    <script src="js/foundation/foundation.magellan.js"></script>
-    
-    <script src="js/foundation/foundation.orbit.js"></script>
-    
-    <script src="js/foundation/foundation.reveal.js"></script>
-    
-    <script src="js/foundation/foundation.section.js"></script>
-    
-    <script src="js/foundation/foundation.tooltips.js"></script>
-    
-    <script src="js/foundation/foundation.topbar.js"></script>
-    
-    <script src="js/foundation/foundation.interchange.js"></script>
-    
-    <script src="js/foundation/foundation.placeholder.js"></script>
-    
-    <script src="js/foundation/foundation.abide.js"></script>
-    
-    -->
     
     <script>
       $(document).foundation();
@@ -137,51 +98,8 @@
     <script type="text/javascript" src="http://zam.zamimg.com/j/tooltips.js"></script>
 
     <script type="text/javascript">
-      // Create a queue, but don't obliterate an existing one!
-      var analytics = analytics || [];
-      
-      (function () {
-      
-        // A list of all the methods we want to generate queueing stubs for.
-        var methods = [
-          'identify', 'track', 'trackLink', 'trackForm', 'trackClick', 'trackSubmit',
-          'page', 'pageview', 'ab', 'alias', 'ready', 'group'
-        ];
-      
-        // For each of our methods, generate a queueing method that pushes arrays of
-        // arguments onto our `analytics` queue. The first element of the array
-        // is always the name of the analytics.js method itself (eg. `track`), so that
-        // we know where to replay them when analytics.js finally loads.
-        var factory = function (method) {
-          return function () {
-            analytics.push([method].concat(Array.prototype.slice.call(arguments, 0)));
-          };
-        };
-      
-        for (var i = 0; i < methods.length; i++) {
-          analytics[methods[i]] = factory(methods[i]);
-        }
-      
-      }());
-      
-      // Define a method that will asynchronously load analytics.js from our CDN.
-      analytics.load = function(apiKey) {
-      
-        // Create an async script element for analytics.js based on your API key.
-        var script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.async = true;
-        script.src = ('https:' === document.location.protocol ? 'https://' : 'http://') +
-                      'd2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/' + apiKey + '/analytics.min.js';
-      
-        // Find the first script element on the page and insert our script next to it.
-        var firstScript = document.getElementsByTagName('script')[0];
-        firstScript.parentNode.insertBefore(script, firstScript);
-      };
-      
-      // Load analytics.js with your API key, which will automatically load all of the
-      // analytics integrations you've turned on for your account. Boosh!
-      analytics.load('4w49zaeet4');
+      var analytics=analytics||[];(function(){var e=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group"],t=function(e){return function(){analytics.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var n=0;n<e.length;n++)analytics[e[n]]=t(e[n])})(),analytics.load=function(e){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+e+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)};
+      analytics.load("4w49zaeet4");
     </script>
   </body>
 </html>
