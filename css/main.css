@@ -144,32 +144,40 @@ h6 {
 	color: #FFFFFF;
 }
 
-.tertiary-row {
-	background-color: #F2F2F2;
-	padding: .4em 0;
-}
-
-.tertiary-row li {
-	font-size: .8em;
-}
-
 .main-content {
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
 
-li, ol, ul {
-	list-style-position: inside;
-}
-
-.standard-list { 
+.standard-list {
+  list-style-position: inside;
 	list-style-type: square;
-	padding-left: 2em;
 	color: #2A2A2A;
 }
 
-.no-list-style {
+.standard-list li {
+	padding-left: 1em;
+}
+
+.standard-list li.no-list-style {
 	list-style-type: none;
+  padding-left: 0;
+}
+
+.top-padding {
+  padding-top: 1em;
+}
+
+.bottom-padding {
+  padding-bottom: 1em;
+}
+
+.left-padding {
+  padding-left: 1em;
+}
+
+.right-padding {
+  padding-right: 1em;
 }
 
 /* Buttons */
