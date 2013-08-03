@@ -164,12 +164,32 @@ li, ol, ul {
 
 .standard-list { 
 	list-style-type: square;
-	padding-left: 2em;
 	color: #2A2A2A;
 }
 
-.no-list-style {
+.standard-list li {
+	padding-left: 1em;
+}
+
+.standard-list li.no-list-style {
 	list-style-type: none;
+  padding-left: 0;
+}
+
+.top-padding {
+  padding-top: 1em;
+}
+
+.bottom-padding {
+  padding-bottom: 1em;
+}
+
+.left-padding {
+  padding-left: 1em;
+}
+
+.right-padding {
+  padding-right: 1em;
 }
 
 /* Buttons */
