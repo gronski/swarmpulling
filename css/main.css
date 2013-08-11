@@ -164,6 +164,10 @@ h6 {
   padding-left: 0;
 }
 
+.standard-list.table-of-contents {
+	font-size: .9em;
+}
+
 .top-padding {
   padding-top: 1em;
 }
@@ -183,19 +187,23 @@ h6 {
 /* Buttons */
 
 .button, .label {
-	background-color: #E29A36;
-	border: none;
+  background-color: #E29A36;
+  border: none;
 }
 
 .button:hover, .button:focus {
-	background-color: #C8801D;
-	border: none;
+  background-color: #C8801D;
+  border: none;
 }
 
 /* Accordion */
 
 .orange-bg {
   background-color: #E29A36;
+}
+
+.jump-top {
+  font-size: .9em;
 }
 
 /* We use this media query to add styles to any device that supports media queries */
