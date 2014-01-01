@@ -22,7 +22,7 @@
 
 body {
 	background: #FFFFFF;
-	font-family: 'PT Sans', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: #2A2A2A;
 }
 
@@ -53,7 +53,7 @@ a {
 /* Typography */
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'PT Sans', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: #2A2A2A;
 }
 
@@ -118,7 +118,7 @@ h6 {
 	float: left;
 	list-style-type: none;
 	padding-right: 1em;
-	font-family: 'PT Sans', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-family: 'PT Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .main-nav li.last {
